@@ -139,6 +139,7 @@ def add_tag():
         for tag in tags:
             tag_list_widget.addItem(tag)
 
+# Функция для поиска тега
 def search_by_teg():
     tag = tag_input_widget.text()
     note_list_widget.clear()
